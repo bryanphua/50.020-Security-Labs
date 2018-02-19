@@ -1,0 +1,30 @@
+statistics
+----------------------------------------------------------------
+plaintext found:                             8 of 15
+total time:                                  118.96 s
+time of chain traverse:                      105.58 s
+time of alarm check:                         13.21 s
+time of disk read:                           1.04 s
+hash & reduce calculation of chain traverse: 108243000
+hash & reduce calculation of alarm check:    25770419
+number of alarm:                             23924
+performance of chain traverse:               1.03 million/s
+performance of alarm check:                  1.95 million/s
+
+result
+----------------------------------------------------------------
+429a6e9dceb84025f5faf62ae482d2d6  <not found>  hex:<not found>
+765e2ea3fb08fa9b0be2f22ee37c7004  <not found>  hex:<not found>
+67c67a09e6f823fc0794eaf5b166d5b3  <not found>  hex:<not found>
+776612c9bd81af08be23f69c8613aade  <not found>  hex:<not found>
+33ec1f4f59bc68e5cabf4147b80d2c4e  hed4ez  hex:68656434657a
+a9a2500b1222f6f0f16bf52455dfee7c  lou0ga  hex:6c6f75306761
+54e22d11527568e919c86e6fc25c0cf7  <not found>  hex:<not found>
+6dec7a390bded62e0b2be5ff9070be6d  nizedl  hex:6e697a65646c
+832cfab07b07203facc78a0043cea1c1  <not found>  hex:<not found>
+1ff3d27fc4ab00678ac38aa9cb58b82d  opmeng  hex:6f706d656e67
+1e16247521380292fd7287e8b6a90e77  aseasn  hex:61736561736e
+a33c03fb88589f5aa34ce52c4e5e8f87  sso55n  hex:73736f35356e
+9aea2b74dbd7837d49dcd3e2457fd59a  <not found>  hex:<not found>
+7cc7fdaf74697df714b383e34071b618  dsmtoa  hex:64736d746f61
+0e7e336141702c8480fd065483ae18d3  di5gvn  hex:64693567766e
