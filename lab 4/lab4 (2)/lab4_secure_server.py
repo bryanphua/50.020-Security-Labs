@@ -39,8 +39,8 @@ def login():
         password = hash(request.form['password'])
         print("SELECT * FROM users WHERE email='%s' and password='%s'"
               % (email, password))
-        c.execute("SELECT * FROM users WHERE email='%s' and password='%s'"
-                  % (email, password))
+        c.execute("SELECT * FROM users WHERE email=? and password=?"
+                  , (email, password))
         rval = c.fetchone()
         if email == 'admin@a.com' and password == app.adminhash:
             rval = ('admin', 'admin', 'admin')

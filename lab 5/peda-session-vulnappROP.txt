@@ -1,0 +1,7 @@
+break /home/vbox_shared/50.020-Security-Labs/lab5/vulnapp.c:37
+
+
+
+
+
+
